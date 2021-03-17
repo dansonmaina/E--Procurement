@@ -1,0 +1,27 @@
+//
+// clockpicker.scss
+//
+
+.clockpicker-popover {
+    .popover-title{
+        font-size: 16px;
+        font-weight: $font-weight-semibold;
+        background-color: $card-bg;
+    }
+    .popover-content{
+        background-color: lighten($gray-200, 2%);
+    }
+
+    .clockpicker-plate{
+        background-color: $card-bg;
+        border-color: $gray-200;
+    }
+
+    .clockpicker-tick{
+        color: $gray-500;
+    }
+    .btn-default {
+        background-color: $primary;
+        color: $white;
+    }
+}
